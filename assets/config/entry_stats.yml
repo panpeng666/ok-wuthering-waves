@@ -1,0 +1,256 @@
+cri_rate:
+  name: "暴击"
+  type: "percentage"
+  distribution:
+    - value: 6.3
+      probability: 0.229
+    - value: 6.9
+      probability: 0.215
+    - value: 7.5
+      probability: 0.266
+    - value: 8.1
+      probability: 0.078
+    - value: 8.7
+      probability: 0.070
+    - value: 9.3
+      probability: 0.094
+    - value: 9.9
+      probability: 0.027
+    - value: 10.5
+      probability: 0.021
+
+cri_dmg:
+  name: "暴击伤害"
+  type: "percentage"
+  distribution:
+    - value: 12.6
+      probability: 0.235
+    - value: 13.8
+      probability: 0.230
+    - value: 15.0
+      probability: 0.256
+    - value: 16.2
+      probability: 0.060
+    - value: 17.4
+      probability: 0.081
+    - value: 18.6
+      probability: 0.074
+    - value: 19.8
+      probability: 0.034
+    - value: 21.0
+      probability: 0.032
+
+atk_rate:
+  name: "攻击"
+  type: "percentage"
+  distribution:
+    - value: 6.4
+      probability: 0.0686
+    - value: 7.1
+      probability: 0.0778
+    - value: 7.9
+      probability: 0.2094
+    - value: 8.6
+      probability: 0.2403
+    - value: 9.4
+      probability: 0.1716
+    - value: 10.1
+      probability: 0.1419
+    - value: 10.9
+      probability: 0.0629
+    - value: 11.6
+      probability: 0.0275
+
+atk_num:
+  name: "攻击"
+  type: "number"
+  distribution:
+    - value: 30
+      probability: 0.08
+    - value: 40
+      probability: 0.5192
+    - value: 50
+      probability: 0.3735
+    - value: 60
+      probability: 0.0273
+
+def_rate:
+  name: "防御"
+  type: "percentage"
+  distribution:
+    - value: 8.1
+      probability: 0.0584
+    - value: 9.0
+      probability: 0.0949
+    - value: 10.0
+      probability: 0.1856
+    - value: 10.9
+      probability: 0.2544
+    - value: 11.8
+      probability: 0.1877
+    - value: 12.8
+      probability: 0.1262
+    - value: 13.8
+      probability: 0.0584
+    - value: 14.7
+      probability: 0.0344
+
+def_num:
+  name: "防御"
+  type: "number"
+  distribution:
+    - value: 40
+      probability: 0.1534
+    - value: 50
+      probability: 0.4213
+    - value: 60
+      probability: 0.3978
+    - value: 70
+      probability: 0.0276
+
+hp_rate:
+  name: "生命"
+  type: "percentage"
+  distribution:
+    - value: 6.4
+      probability: 0.0729
+    - value: 7.1
+      probability: 0.0803
+    - value: 7.9
+      probability: 0.2061
+    - value: 8.6
+      probability: 0.2706
+    - value: 9.4
+      probability: 0.1586
+    - value: 10.1
+      probability: 0.1321
+    - value: 10.9
+      probability: 0.0518
+    - value: 11.6
+      probability: 0.0275
+
+hp_num:
+  name: "生命"
+  type: "number"
+  distribution:
+    - value: 320
+      probability: 0.0606
+    - value: 360
+      probability: 0.0884
+    - value: 390
+      probability: 0.1994
+    - value: 430
+      probability: 0.2374
+    - value: 470
+      probability: 0.1737
+    - value: 510
+      probability: 0.1336
+    - value: 540
+      probability: 0.0617
+    - value: 580
+      probability: 0.0452
+
+normal_dmg:
+  name: "普攻伤害加成"
+  type: "percentage"
+  distribution:
+    - value: 6.4
+      probability: 0.0624
+    - value: 7.1
+      probability: 0.0937
+    - value: 7.9
+      probability: 0.1984
+    - value: 8.6
+      probability: 0.2236
+    - value: 9.4
+      probability: 0.1772
+    - value: 10.1
+      probability: 0.1501
+    - value: 10.9
+      probability: 0.0564
+    - value: 11.6
+      probability: 0.0383
+
+resonance_skill:
+  name: "共鸣技能伤害加成"
+  type: "percentage"
+  distribution:
+    - value: 6.4
+      probability: 0.0732
+    - value: 7.1
+      probability: 0.0743
+    - value: 7.9
+      probability: 0.2008
+    - value: 8.6
+      probability: 0.2364
+    - value: 9.4
+      probability: 0.1883
+    - value: 10.1
+      probability: 0.1402
+    - value: 10.9
+      probability: 0.0596
+    - value: 11.6
+      probability: 0.0272
+
+resonance_burst:
+  name: "共鸣解放伤害加成"
+  type: "percentage"
+  distribution:
+    - value: 6.4
+      probability: 0.0689
+    - value: 7.1
+      probability: 0.0647
+    - value: 7.9
+      probability: 0.1921
+    - value: 8.6
+      probability: 0.2422
+    - value: 9.4
+      probability: 0.1785
+    - value: 10.1
+      probability: 0.1461
+    - value: 10.9
+      probability: 0.072
+    - value: 11.6
+      probability: 0.0355
+
+resonance_eff:
+  name: "共鸣效率"
+  type: "percentage"
+  distribution:
+    - value: 6.8
+      probability: 0.0691
+    - value: 7.6
+      probability: 0.0754
+    - value: 8.4
+      probability: 0.2084
+    - value: 9.2
+      probability: 0.2607
+    - value: 10.0
+      probability: 0.1853
+    - value: 10.8
+      probability: 0.1162
+    - value: 11.6
+      probability: 0.0576
+    - value: 12.4
+      probability: 0.0272
+
+charged_atk:
+  name: "重击伤害加成"
+  type: "percentage"
+  distribution:
+    - value: 6.4
+      probability: 0.0624
+    - value: 7.1
+      probability: 0.0937
+    - value: 7.9
+      probability: 0.1984
+    - value: 8.6
+      probability: 0.2236
+    - value: 9.4
+      probability: 0.1772
+    - value: 10.1
+      probability: 0.1501
+    - value: 10.9
+      probability: 0.0564
+    - value: 11.6
+      probability: 0.0383

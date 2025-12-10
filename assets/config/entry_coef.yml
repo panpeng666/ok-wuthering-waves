@@ -1,0 +1,260 @@
+Default:
+  coef: 
+    cri_rate: 1.8
+    cri_dmg: 0.9
+    resonance_eff: 0.5
+
+Cartethyia:
+  name: "卡提希娅"
+  dmg_source: "hp"
+  coef: 
+    resonance_burst: 0.19
+    normal_dmg: 0.66
+
+Lupa:
+  name: "露帕"
+  dmg_source: "atk"
+  coef:
+    resonance_burst: 0.64
+    resonance_skill: 0.18
+
+Ciaccona:
+  name: "夏空"
+  dmg_source: "atk"
+  coef:
+    resonance_eff: 1
+    charged_atk: 0.23
+    resonance_burst: 0.47
+
+Zani:
+  name: "赞妮"
+  dmg_source: "atk"
+  coef:
+    charged_atk: 0.76
+
+Cantarella:
+  name: "坎特蕾拉"
+  dmg_source: "atk"
+  coef:
+    normal_dmg: 0.79
+
+Brant:
+  name: "布兰特"
+  dmg_source: "atk"
+  coef:
+    resonance_eff: 1
+    normal_dmg: 0.62 
+    atk_rate: 0.5 
+    atk_num: 0.05
+
+Roccia:
+  name: "洛可可"
+  dmg_source: "atk"
+  coef:
+    charged_atk: 0.68
+
+Carlotta:
+  name: "珂莱塔"
+  dmg_source: "atk"
+  coef:
+    resonance_skill: 0.75
+
+Camellya:
+  name: "椿"
+  dmg_source: "atk"
+  coef:
+    normal_dmg: 0.66
+    resonance_burst: 0.22
+
+Shorekeeper:
+  name: "守岸人"
+  dmg_source: "hp"
+  coef:
+    resonance_eff: 1.34
+    resonance_burst: 0.97
+    hp_rate: 1.2
+    hp_num: 0.012
+    cri_rate: 0.0
+    cri_dmg: 0.116
+
+Zhezhi:
+  name: "折枝"
+  dmg_source: "atk"
+  coef:
+    normal_dmg: 0.54
+    resonance_skill: 0.21
+
+Xiangliyao:
+  name: "相里要"
+  dmg_source: "atk"
+  coef:
+    resonance_burst: 0.62
+
+Changli:
+  name: "长离"
+  dmg_source: "atk"
+  coef:
+    resonance_burst: 0.27
+    resonance_skill: 0.59
+
+Jinhsi:
+  name: "今汐"
+  dmg_source: "atk"
+  coef:
+    resonance_burst: 0.20
+    resonance_skill: 0.72
+
+Yinlin:
+  name: "吟霖"
+  dmg_source: "atk"
+  coef:
+    charged_atk: 0.20
+    resonance_burst: 0.21
+    resonance_skill: 0.37
+
+Jiyan:
+  name: "忌炎"
+  dmg_source: "atk"
+  coef:
+    charged_atk: 0.68
+
+Jianxin:
+  name: "鉴心"
+  dmg_source: "atk"
+  coef:
+    charged_atk: 0.31
+    resonance_burst: 0.27
+
+Calcharo:
+  name: "卡卡罗"
+  dmg_source: "atk"
+  coef:
+    resonance_burst: 0.52
+    normal_dmg: 0.20
+
+Encore:
+  name: "安可"
+  dmg_source: "atk"
+  coef:
+    normal_dmg: 0.59
+
+Verina:
+  name: "维里奈"
+  dmg_source: "atk"
+  coef:
+    cri_dmg: 0
+    cri_rate: 0
+    atk_rate: 1.2
+    atk_num: 0.12
+    resonance_eff: 1
+
+Lingyang:
+  name: "凌阳"
+  dmg_source: "atk"
+  coef:
+    normal_dmg: 0.40
+    resonance_skill: 0.30
+
+Lumi:
+  name: "灯灯"
+  dmg_source: "atk"
+  coef:
+    normal_dmg: 0.64
+    resonance_burst: 0.20
+
+Yangyang:
+  name: "秧秧"
+  dmg_source: "atk"
+  coef:
+    charged_atk: 0.28
+    resonance_burst: 0.40
+
+Youhu:
+  name: "釉瑚"
+  dmg_source: "atk"
+  coef:
+    resonance_burst: 0.29
+    resonance_skill: 0.33
+
+Baizhi:
+  name: "白芷"
+  dmg_source: "hp"
+  coef:
+    hp_rate: 1.2
+    hp_num: 0.012
+    cri_rate: 0
+    cri_dmg: 0
+    resonance_eff: 1
+
+Chixia:
+  name: "炽霞"
+  dmg_source: "atk"
+  coef:
+    resonance_burst: 0.35
+    resonance_skill: 0.46
+
+Sanhua:
+  name: "散华"
+  dmg_source: "atk"
+  coef:
+    charged_atk: 0.30
+    resonance_burst: 0.32
+    resonance_skill: 0.30
+
+Aalto:
+  name: "秋水"
+  dmg_source: "atk"
+  coef:
+    normal_dmg: 0.25
+    resonance_skill: 0.33
+
+Danjin:
+  name: "丹瑾"
+  dmg_source: "atk"
+  coef:
+    charged_atk: 0.32
+    resonance_burst: 0.20
+    resonance_skill: 0.22
+
+Mortefi:
+  name: "莫特斐"
+  dmg_source: "atk"
+  coef:
+    resonance_burst: 0.48
+    resonance_skill: 0.31
+    resonance_eff: 1
+
+Yuanwu:
+  name: "渊武"
+  dmg_source: "atk"
+  coef:
+    resonance_burst: 0.46
+    resonance_skill: 0.45
+    resonance_eff: 1
+
+Taoqi:
+  name: "桃祈"
+  dmg_source: "def"
+  coef:
+    resonance_burst: 0.50
+    resonance_skill: 0.38
+
+Phrolova:
+  name: "弗洛洛"
+  dmg_source: "atk"
+  coef: 
+    resonance_skill: 0.40
+    resonance_eff: 0
+
+Augusta:
+  name: "奥古斯塔"
+  dmg_source: "atk"
+  coef: 
+    charged_atk: 0.73
+
+Iuno:
+  name: "尤诺"
+  dmg_source: "atk"
+  coef: 
+    resonance_burst: 0.60
+    resonance_eff: 1
