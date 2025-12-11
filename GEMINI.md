@@ -65,4 +65,4 @@
 
 *   **基于任务 (Task-Based):** 应用程序围绕执行特定自动化序列的“任务 (Tasks)”构建。
 *   **图像识别:** 严重依赖 `process_feature` 和模板匹配 (`assets/result.json`) 来理解游戏状态。
-*   **安全自动化:** 强调非侵入式自动化（无内存读取），以便在宏工具的范围内尽可能遵守反作弊/服务条款。
+*   **安全自动化:** 强调非侵入式自动化（无内存读取），以便在宏工具的范围内尽可能遵守反作弊/服务条款。\n- Thu Dec 11 10:19:57 CST 2025: Optimized codebase documentation and configured git proxy.

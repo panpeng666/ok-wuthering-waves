@@ -23,6 +23,15 @@ processed_feature = False
 class BaseWWTask(BaseTask):
     """
     BaseWWTask: 所有鸣潮 (Wuthering Waves) 自动化任务的基类。
+
+    该类继承自 ok-script 的 BaseTask，主要职责是：
+    1.  **封装游戏交互**: 提供针对鸣潮客户端的特定操作，如缩放地图 (`zoom_map`)、检测战斗状态 (`in_combat`)、队伍检测 (`in_team`) 等。
+    2.  **提供通用能力**: 实现了寻路 (`walk_to_box`)、拾取声骸 (`pick_echo`)、体力管理 (`use_stamina`) 等通用功能。
+    3.  **状态管理**: 管理月卡检测、游戏语言识别等全局状态。
+
+    所有具体的业务任务（如刷本、自动战斗）都应继承自此类或其子类（如 BaseCombatTask）。
+    """    """
+    BaseWWTask: 所有鸣潮 (Wuthering Waves) 自动化任务的基类。
     
     该类继承自 ok-script 的 BaseTask，主要职责是：
     1.  **封装游戏交互**: 提供针对鸣潮客户端的特定操作，如缩放地图 (`zoom_map`)、检测战斗状态 (`in_combat`)、队伍检测 (`in_team`) 等。
